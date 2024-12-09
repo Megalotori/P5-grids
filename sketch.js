@@ -20,7 +20,7 @@ function preload() {
 
 function setup() {
   createCanvas(500, 500);
-  noLoop();
+  // noLoop();
 
   // Circle
 
@@ -38,6 +38,9 @@ function setup() {
 
 function draw() {
   background(220);
+  frameRate(1.5);
+
+
 
   // Square
 
